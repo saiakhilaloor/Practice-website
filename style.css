@@ -178,8 +178,8 @@ footer {
 	.slider .bx-wrapper .bx-controls{
 		display: none;
 	}
-	.parallax-inner{
-		display: none;
+	.p{
+		font-size: 15px;
 	}
 	.left-col{
 		width:100%;
