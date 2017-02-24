@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	font-family: 'Marcellus SC', serif;
+	background-color: #ffe;
+}
+h1 {
+	color: #16A085;
+	font-size: : 55px;
+	letter-spacing: 1%;
+}
+p {
+	font-size: 20px;
+}
+.logo {
+	width:100%; 
+	text-align: center;
+	background: #Fff;
+	padding: 7px;
+}
+.clearfix {
+	clear: both;
+}
+.slider {
+	width: 100%;
+}
+.slider1 img {
+	min-width: 100%;
+	height: 600px;
+	margin: 0 auto;
+}
+.slider .bx-wrapper .bx-controls-direction a{
+	outline: 0 none;
+	position: absolute;
+	text-indent: -9999px;
+	top:40%;
+	height: 70px;
+	width: 40px;
+	z-index: -1;
+	transition: all 0.7s;
+}
+.slider .bx-wrapper:hover .bx-controls-direction a {
+	z-index: 5;
+}
+.slider .bx-wrapper .bx-prev {
+	background : #000 url("images/left-arrow-white.png") no-repeat 8px 13px;
+	left: 0px;
+	opacity: 0.3; 
+}
+.slider .bx-wrapper .bx-prev:hover{
+	opacity: 0.6; 
+}
+.slider .bx-wrapper .bx-next {
+	background : #000 url("images/right-arrow-white.png") no-repeat 10px 12px;
+	right: 0px;
+	opacity: 0.3; 
+}
+.slider .bx-wrapper .bx-next:hover{
+	opacity: 0.6; 
+}
+h1 {
+	color: #16A085;
+	font-size: : 35px;
+	margin: 5px;
+	padding: 5px;
+	letter-spacing: 1%;
+}
+h3 {
+	color: #E74C3C;
+	font-size: 25px;
+}
+
+.left-col {
+	width: 55%;
+	float: left;
+	margin: 4% 0% 4% 4%;
+
+}
+
+.sidebar img {
+	width: 41%;
+	margin-top: 70px;
+	float: right;
+	margin-bottom: 10px;
+}
+.parallax-1{
+	background : url("images/wallpaper-stark-1600.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.parallax-inner {
+	padding-top: 100px;
+	padding-bottom: 300px;
+}
+.parallax-2{
+	background : url("images/wallpaper-lannister-1600.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.parallax-3{
+	background : url("images/wallpaper-targaryen-1600.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.parallax-4{
+	background : url("images/wallpaper-baratheon-1600.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.parallax-5{
+	background : url("images/wallpaper-tully-1600.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.parallax-6{
+	background : url("images/wallpaper-greyjoy-1600.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.parallax-7{
+	background : url("images/wallpaper-arryn-1600.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.parallax-8{
+	background : url("images/House_Martell.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.parallax-9{
+	background : url("images/house_tyrell.jpg") repeat fixed 100%;
+	text-align: center;
+}
+.one , .two ,.three ,.four, .five, .six,.seven,.eight, .nine{
+	margin : 10%;
+}
+.one p, .two p, .three p, .four p, .five p,.six p,.seven p,.eight p,.nine p{
+	font-size: 25px;
+}
+.two p{
+	color: #F1C40F  ;
+}
+.three p {
+	color: #E74C3C;
+}
+.five p{
+	color: white;
+}
+.six p{
+	color: #F1C40F;
+}
+.seven p{
+	color: #f0e0ff;
+}
+.eight p{
+	color: #E74C3C;
+}
+
+.seasons h1{
+	font-size: 40px;
+	letter-spacing: 1%;
+	margin-top:25px;
+	margin-bottom: 75px;
+	margin-left: 50px;
+}
+.seasons p{
+	color:#E74C3C;
+	padding: 10px;
+	font-size: 25px;
+	margin: 10px;
+}
+footer {
+	position: relative;
+	background-color: #922B21 ;
+	text-align:center;
+	padding: 50px;
+	color: white;
+}
+@media screen and (max-width: 760px){
+	body {
+		margin-left: 3%;
+	}
+	.slider .bx-wrapper .bx-controls{
+		display: none;
+	}
+	.parallax-inner{
+		display: none;
+	}
+	.left-col{
+		width:100%;
+		margin : 0 0 4% 0;
+	}
+	h1 {
+		font-size: 125%;
+	}
+	.sidebar img{
+		width: 100%;
+		margin: 0;
+	}
+	img{
+		width: 100%;
+	}
+	h3 {
+		padding-top: 3%;
+	}
+}
+
