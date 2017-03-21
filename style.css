@@ -16,9 +16,11 @@ p {
 	font-size: 20px;
 }
 .logo {
+	position : fixed no-repeat;
 	width:100%; 
 	text-align: center;
 	background: #Fff;
+	
 }
 .clearfix {
 	clear: both;
@@ -91,7 +93,7 @@ h3 {
 }
 .parallax-inner {
 	padding-top: 100px;
-	padding-bottom: 300px;
+	padding-bottom: 250px;
 }
 .parallax-2{
 	background : url("images/wallpaper-lannister-1600.jpg") repeat fixed 100%;
@@ -169,6 +171,33 @@ footer {
 	text-align:center;
 	padding: 50px;
 	color: white;
+}
+
+li {
+	display: inline;
+}
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+li {
+	display: inline;
+}
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
 }
 @media screen and (max-width: 760px){
 	body {
