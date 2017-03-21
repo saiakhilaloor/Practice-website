@@ -170,6 +170,19 @@ footer {
 	padding: 50px;
 	color: white;
 }
+li {
+	display: inline;
+}
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
 @media screen and (max-width: 760px){
 	body {
 		margin-left: 3%;
