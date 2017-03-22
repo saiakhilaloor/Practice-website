@@ -201,22 +201,29 @@ li {
     background: #fff;
 }
 @media screen and (max-width: 760px){
+<<<<<<< HEAD
 
+=======
+>>>>>>> bfe8b48580806a7e68229a2ae8fcafc3835686d7
 	.slider .bx-wrapper .bx-controls{
 		display: none;
 	}
 	.p{
-		font-size: 15px;
+		font-size: 12px;
 	}
 	.left-col{
 		width:100%;
-		margin : 0 0 4% 0;
+		margin : 0 0 0 0;
 	}
 	.left-col p{
 		font-size: 15px;
 	}
 	h1 {
+<<<<<<< HEAD
 		font-size: 18px;;
+=======
+		font-size: 100%;
+>>>>>>> bfe8b48580806a7e68229a2ae8fcafc3835686d7
 	}
 	.sidebar img{
 		width: 100%;
