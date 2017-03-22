@@ -201,9 +201,6 @@ li {
     background: #fff;
 }
 @media screen and (max-width: 760px){
-	body {
-		margin-left: 3%;
-	}
 	.slider .bx-wrapper .bx-controls{
 		display: none;
 	}
