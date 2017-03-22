@@ -201,9 +201,7 @@ li {
     background: #fff;
 }
 @media screen and (max-width: 760px){
-	body {
-		margin-left: 3%;
-	}
+
 	.slider .bx-wrapper .bx-controls{
 		display: none;
 	}
@@ -214,8 +212,11 @@ li {
 		width:100%;
 		margin : 0 0 4% 0;
 	}
+	.left-col p{
+		font-size: 15px;
+	}
 	h1 {
-		font-size: 125%;
+		font-size: 18px;;
 	}
 	.sidebar img{
 		width: 100%;
@@ -225,7 +226,30 @@ li {
 		width: 100%;
 	}
 	h3 {
+		font-size: 15px;
 		padding-top: 3%;
+	}
+	.seasons p {
+		font-size: 15px;
+	}
+	.one p, .two p, .three p, .four p, .five p,.six p,.seven p,.eight p,.nine p{
+		font-size: 15px;
+	}
+	.btn-social {	
+   	 	width: 30px;
+    		height: 30px;
+    		border: 1px solid #fff;
+    		border-radius: 100%;
+    		text-align: center;
+    		font-size: 12px;
+    		line-height: 25px;
+	}
+	footer {
+		background-color: black;
+		padding: 15px;
+	}
+	footer p{
+		font-size: 15px;
 	}
 	.slider1 img {
 	min-width: 100%;
