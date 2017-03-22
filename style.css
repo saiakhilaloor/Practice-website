@@ -232,6 +232,12 @@ li {
 		font-size: 15px;
 		padding-top: 3%;
 	}
+	.seasons h1 {
+		font-size: 18px;
+		margin-top:15px;
+		margin-bottom: 15px;
+		margin-left: 15px;
+	}
 	.seasons p {
 		font-size: 15px;
 	}
@@ -239,7 +245,7 @@ li {
 		font-size: 15px;
 	}
 	.nine p{
-		color: #252525;
+		color: white;
 	}
 	.btn-social {	
    	 	width: 30px;
