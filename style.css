@@ -205,14 +205,14 @@ li {
 		display: none;
 	}
 	.p{
-		font-size: 15px;
+		font-size: 12px;
 	}
 	.left-col{
 		width:100%;
-		margin : 0 0 4% 0;
+		margin : 0 0 0 0;
 	}
 	h1 {
-		font-size: 125%;
+		font-size: 100%;
 	}
 	.sidebar img{
 		width: 100%;
